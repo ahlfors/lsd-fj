@@ -1,0 +1,553 @@
+.a1-traditional-scale{
+  width: 100%;
+  height: 100%;
+  .a1-traditional-scale-div{
+    width: 2164px;
+    height: 639px;
+    position: absolute;
+    top: 174px;
+    left: 372px;
+    //background-image: url("../../../assets/img/legend/scale.png");
+    .a1-traditional-BusinessScale {
+      left: 5px;
+      top: 66px;
+      border-radius: 10px;
+      background-image: url("../../../assets/img/legend/bus-scale.png");
+      box-shadow: 0px 0px 37px #9CA3A9;
+    }
+    .scale-measure {
+      position: absolute;
+      width: 202px;
+      height: 241px;
+      left: 430px;
+      top: 82px;
+      background-size: 100% 100%;
+      background-image: url("../../../assets/img/legend/sub-left1.png");
+      >div:nth-of-type(1){
+        position: absolute;
+        top: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: absolute;
+        top: 99px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(3){
+        position: absolute;
+        top: 162px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .scale-flow1{
+        width: 137px;
+        height: 46px;
+        left: 18px;
+        font-size: 25px;
+        color: #BEDCE6;
+        left: 23px;
+        background-image: url("../../../assets/img/legend/leftup.png");
+        background-repeat: no-repeat;
+      }
+      .scale-flow2{
+        left: 9px;
+        height: 58px;
+        width: 179px;
+        font-size: 30px;
+        color: #fefefe;
+        left: 2.5px;
+        background-image: url("../../../assets/img/legend/leftdown.png");
+        background-repeat: no-repeat;
+      }
+    }
+    .scale-measure-next{
+      position: absolute;
+      width: 372px;
+      height: 214px;
+      top: 94px;
+      left: 622px;
+      z-index: 2;
+      background-image: url("../../../assets/img/legend/sub-mid.png");
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding-left: 5px;
+      >div:nth-of-type(1){
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(3){
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .measure-traffic1{
+        left: 42px;
+        height: 46px;
+        width: 251px;
+        font-size: 22px;
+        color: #BEDCE6;
+        background-image: url("../../../assets/img/legend/midup.png");
+        background-size: 100% 100%;
+      }
+      .measure-traffic2{
+        left: 27px;
+        height: 58px;
+        width: 300px;
+        font-size: 28px;
+        color: #fefefe;
+        background-image: url("../../../assets/img/legend/middown.png");
+        background-size: 100% 100%;
+      }
+    }
+    .scale-measure-next2{
+      position: absolute;
+      width: 272px;
+      height: 182px;
+      top: 94px;
+      left: 614px;
+      z-index: 2;
+      background-image: url("../../../assets/img/legend/sub-mid.png");
+      >div:nth-of-type(1){
+        position: absolute;
+        top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .measure-flow1{
+        left: 42px;
+        height: 46px;
+        width: 167px;
+        font-size: 22px;
+        color: #BEDCE6;
+        background-image: url("../../../assets/img/legend/midup.png");
+      }
+      .measure-flow2{
+        left: 27px;
+        height: 58px;
+        width: 209px;
+        font-size: 28px;
+        color: #fefefe;
+        background-image: url("../../../assets/img/legend/middown.png");
+      }
+    }
+    .scale-measure-chart{
+      position: absolute;
+      width: 1278px;
+      height: 629px;
+      top: 35px;
+      left: 976px;
+      background-image: url("../../../assets/img/legend/scale_bg.png");
+      .traffic-chart-show{
+        position: absolute;
+        width: 1251px;
+        height: 597px;
+        .historyTraffic-title{
+          position: absolute;
+          width: 573px;
+          top: 50px;
+          left: 74px;
+          height: 35px;
+          >span:nth-of-type(1){
+
+          }
+          >span:nth-of-type(2){
+            position: absolute;
+            left: 41px;
+            font-size: 35px;
+            color: #fefefe;
+            letter-spacing: 7px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 35px;
+            width: 600px;
+          }
+        }
+        .historyTraffic-chart{
+          position: absolute;
+          width: 1245px;
+          height: 420px;
+          top: 97px;
+        }
+      }
+    }
+    .scale-measure-cmnet {
+      position: absolute;
+      top: -86px;
+      left: 374px;
+      width: 1850px;
+      height: 850px;
+      transform: scale(0.73);
+      .cmnet-title-name{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        font-size: 30px;
+        font-family: "Microsoft YaHei";
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+      // background-image: url("../../../assets/img/legend/cmnet-fj-bg.png");
+      .cmnet-zbck-name {
+        width: 748px;
+        height: 50px;
+        position: absolute;
+        top: 94px;
+        left: 89px;
+        display: flex;
+        justify-content: space-between;
+        >div {
+          width: 220px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 22px;
+          color: rgb(216, 218, 219);
+          text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+        }
+      }
+      .cmnet-sfck-name {
+        width: 747px;
+        height: 50px;
+        position: absolute;
+        top: 95px;
+        left: 996px;
+        display: flex;
+        justify-content: space-between;
+        >div {
+          width: 220px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 22px;
+          color: rgb(216, 218, 219);
+          text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+        }
+      }
+      .cmnet-cywck-name {
+        width: 346px;
+        height: 48px;
+        position: absolute;
+        top: 552px;
+        left: 743px;
+        text-align: center;
+        line-height: 48px;
+        color: #CCE5FF;
+        font-size: 24px;
+      }
+      .cmnet-one {
+        position: absolute;
+        top: 157px;
+        width: 740px;
+        height: 40px;
+        >div {
+          position: absolute;
+          top: 0px;
+          height: 40px;
+        }
+        >div:nth-of-type(2), >div:nth-of-type(4), >div:nth-of-type(6) {
+          top: 50px;
+        }
+      }
+      .cmnet-one-left {
+        left: 90px;
+      }
+      .cmnet-one-right {
+        left: 1005px;
+      }
+      .flow-one {
+        right: 651px;
+      }
+      .flow-two {
+        left: 111px;
+      }
+      .avg-one {
+        right: 387px;
+      }
+      .avg-two {
+        left: 387px;
+      }
+      .peak-one {
+        right: 122px;
+      }
+      .peak-two {
+        left: 651px;
+      }
+      .cmnet-two-up {
+        position: absolute;
+        top: 653px;
+        left: 150px;
+        width: 1476px;
+        height: 30px;
+        >div {
+          position: absolute;
+          top: 0px;
+          height: 30px;
+        }
+        >div:nth-of-type(1) {
+          right: 1476px;
+        }
+        >div:nth-of-type(2) {
+          right: 1288px;
+        }
+        >div:nth-of-type(3) {
+          right: 1107px;
+        }
+        >div:nth-of-type(4) {
+          right: 920px;
+        }
+        >div:nth-of-type(5) {
+          right: 740px;
+        }
+        >div:nth-of-type(6) {
+          right: 552px;
+        }
+        >div:nth-of-type(7) {
+          right: 372px;
+        }
+        >div:nth-of-type(8) {
+          right: 186px;
+        }
+        >div:nth-of-type(9) {
+          right: 4px;
+        }
+      }
+      .cmnet-two-down {
+        position: absolute;
+        top: 708px;
+        left: 198px;
+        width: 1476px;
+        height: 30px;
+        > div {
+          position: absolute;
+          top: 0px;
+          height: 30px;
+        }
+        >div:nth-of-type(1) {
+          left: 0px;
+        }
+        >div:nth-of-type(2) {
+          left: 188px;
+        }
+        >div:nth-of-type(3) {
+          left: 369px;
+        }
+        >div:nth-of-type(4) {
+          left: 557px;
+        }
+        >div:nth-of-type(5) {
+          left: 738px;
+        }
+        >div:nth-of-type(6) {
+          left: 926px;
+        }
+        >div:nth-of-type(7) {
+          left: 1107px;
+        }
+        >div:nth-of-type(8) {
+          left: 1295px;
+        }
+        >div:nth-of-type(9) {
+          left: 1476px;
+        }
+      }
+      .cmnet-region-dev {
+        position: absolute;
+        width: 1638px;
+        height: 58px;
+        bottom: 29px;
+        left: 104px;
+        display: flex;
+        justify-content: space-between;
+        >div {
+          position: relative;
+          width: 143px;
+          height: 100%;
+          cursor: pointer;
+        }
+        .active-region {
+          box-shadow: inset 0px 0px 60px #35FF35;
+          background-color: rgba(53,255,53, 0.1);
+        }
+      }
+    }
+    .cmnet-region-wrap {
+      width: 1850px;
+      height: 850px;
+      position: absolute;
+      top: 0;
+      left: 1858px;
+      .cmnet-title {
+        position: absolute;
+        top: 20px;
+        line-height: 70px;
+        width: 100%;
+        height: 70px;
+        font-size: 28px;
+        font-family: "Microsoft YaHei";
+        text-align: center;
+        color: rgb(255, 255, 255);
+      }
+      .top-item {
+        width: 312px;
+        height: 100px;
+        position: absolute;
+        &.pos-left {
+          top: 177px;
+          left: 375px;
+        }
+        &.pos-center {
+          top: 177px;
+          left: 761px;
+        }
+        &.pos-right {
+          top: 177px;
+          left: 1149px;
+        }
+      }
+      .top-item-text {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        font-family: "Microsoft YaHei";
+        color: rgb(216, 218, 219);
+      }
+      .top-item-content {
+        width: 100%;
+        height: 50px;
+      }
+      .item-content-left {
+        height: 40px;
+        position: absolute;
+        top: 60px;
+        right: 185px;
+      }
+      .item-content-right {
+        height: 40px;
+        position: absolute;
+        top: 116px;
+        left: 175px;
+      }
+      .bottom-item {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        &.item-1{
+          top: 647px;
+          left: 96px;
+        }
+        &.item-2{
+          top: 647px;
+          left: 521px;
+        }
+        &.item-3{
+          top: 647px;
+          left: 945px;
+        }
+        &.item-4{
+          top: 647px;
+          left: 1378px;
+        }
+      }
+      .bottom-item-mum {
+        width: 120px;
+        height: 50px;
+        margin-left: 150px;
+        &.item-1{
+          margin-left: 160px;
+        }
+        &.item-2{
+          margin-left: 160px;
+        }
+      }
+      .bottom-item-text {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        font-family: "Microsoft YaHei";
+        color: rgb(204, 230, 255);
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+      }
+      .title {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        height: 46px;
+        font-size: 30px;
+        color: rgb(254, 254, 254);
+      }
+      .name {
+        position: absolute;
+        top: 376px;
+        left: 874px;
+        width: 116px;
+        height: 62px;
+        font-size: 46px;
+        color: rgb(254, 254, 254);
+      }
+    }
+  }
+}
+
+.slide-cmnet-region-enter-active {
+  transition: all .8s ease;
+}
+
+.slide-cmnet-region-leave-active {
+  transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-cmnet-region-enter,
+.slide-cmnet-region-leave-active {
+  transform: translateX(100px);
+  opacity: 0;
+}

@@ -1,0 +1,253 @@
+._a1-network{
+  width: 392px;
+  height: 484px;
+  bottom: 10px;
+  left: 833px;
+  .network-body{
+    width: 100%;
+    height: 370px;
+    top: 92px;
+    position: absolute;
+    .stiff-wood-creep{
+      width: 172px;
+      height: 100%;
+      position: absolute;
+      .wood-part1{
+        width: 100%;
+        height: 105px;
+        position: absolute;
+        >div:nth-of-type(1) {
+          position: relative;
+          width: 100%;
+          height:39px;
+          >span:nth-of-type(1){
+            display: flex;
+            position: absolute;
+            width: 37px;
+            height:39px;
+            background-image: url("../../assets/img/network/stiff_wood_creep_icon.png");
+          }
+          >span:nth-of-type(2){
+            display: flex;
+            position: absolute;
+            left: 50px;
+            font-size: 25px;
+            color: #fefefe;
+            height: 37px;
+          }
+        }
+        >div:nth-of-type(2){
+          left: 50px;
+          top: 56px;
+          height: 30px;
+          position: absolute;
+        }
+      }
+      .wood-part2{
+        top: 105px;
+        width: 100%;
+        height: 270px;
+        position: absolute;
+        >div:nth-of-type(1){
+          height: 40px;
+          width: 100%;
+          cursor: pointer;
+          >span:nth-of-type(1){
+            display: flex;
+            position: absolute;
+            width: 42px;
+            height:43px;
+            background-image: url("../../assets/img/network/IDS.png");
+          }
+          >span:nth-of-type(2){
+            display: flex;
+            position: absolute;
+            left: 50px;
+            font-size: 25px;
+            color: #fefefe;
+            height: 37px;
+          }
+        }
+        >div:nth-of-type(2){
+          width: 100%;
+          top: 50px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        >div:nth-of-type(3){
+          width: 93px;
+          top: 86px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+          left: 73px;
+        }
+        >div:nth-of-type(4){
+          width: 172px;
+          top: 121px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        >div:nth-of-type(5){
+          width: 93px;
+          top: 160px;
+          height: 30px;
+          position: absolute;
+          left: 73px;
+        }
+        >div:nth-of-type(6){
+          width: 172px;
+          top: 195px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        >div:nth-of-type(7){
+          width: 93px;
+          top: 235px;
+          height: 30px;
+          position: absolute;
+          left: 73px;
+        }
+      }
+    }
+    .ddos{
+      width: 191px;
+      height: 100%;
+      left: 188px;
+      position: absolute;
+      .ddos-part1{
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        >div:nth-of-type(1){
+          width: 100%;
+          height:36px;
+          cursor: pointer;
+          >span:nth-of-type(1){
+            display: flex;
+            position: absolute;
+            width: 38px;
+            height:36px;
+            background-image: url("../../assets/img/network/ddos_icon.png");
+          }
+          >span:nth-of-type(2){
+            display: flex;
+            position: absolute;
+            left: 50px;
+            font-size: 25px;
+            color: #fefefe;
+            height: 37px;
+          }
+        }
+        >div:nth-of-type(2){
+          width: 100%;
+          top: 65px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+        }
+        >div:nth-of-type(3){
+          width: 100%;
+          top: 103px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+        }
+      }
+      .ddos-part2{
+        top: 105px;
+        height: 270px;
+        width: 100%;
+        position: absolute;
+        >div:nth-of-type(1){
+          width: 100%;
+          height:38px;
+          position: absolute;
+          >span:nth-of-type(1){
+            display: flex;
+            position: absolute;
+            width: 37px;
+            height:38px;
+            background-image: url("../../assets/img/network/DNS.png");
+          }
+          >span:nth-of-type(2){
+            display: flex;
+            position: absolute;
+            left: 50px;
+            font-size: 25px;
+            color: #fefefe;
+            height: 37px;
+          }
+        }
+        >div:nth-of-type(2){
+          width: 100%;
+          top: 50px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+        }
+        >div:nth-of-type(3){
+          width: 100%;
+          top: 86px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+        }
+        >div:nth-of-type(4){
+          width: 100%;
+          top: 121px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+        }
+        >div:nth-of-type(5){
+          width: 100%;
+          top: 160px;
+          height: 30px;
+          font-size: 25px;
+          color: #fefefe;
+          position: absolute;
+        }
+      }
+    }
+  }
+  .a1-network-tools {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    left: 0px;
+    top: 9px;
+    z-index: 2;
+    cursor: pointer;
+    .all_pro{
+      position: absolute;
+      top: 4px;
+      right: 0px;
+      font-size: 30px;
+      color: #E6F2FE;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 41px;
+    }
+  }
+}

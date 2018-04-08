@@ -1,0 +1,145 @@
+.a1-traditional-Roam {
+  width: 100%;
+  height: 100%;
+  .a1-traditional-roam-div {
+    width: 3840px;
+    height: 1024px;
+    position: absolute;
+    // left: 788px;
+    // top: 210px;
+    // background-image: url("../../../assets/img/legend/roamIn.png");
+    // border: 1px solid red;
+    .a1-roam-important {
+      left: 820px !important;
+      top: 12px !important;
+      width: 360px;
+      padding-left: 20px;
+      background-color: #206495;
+      border-radius: 10px;
+    }
+    .middle {
+      width: 240px;
+      height: 470px;
+      position: absolute;
+      left: 1185px;
+      top: 12px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+      padding: 12px 30px;
+        .fifth,
+        .first,
+        .forth,
+        .second,
+        .third {
+          width: 180px;
+          height: 60px;
+          border: 1px solid #B5E2FF;
+          border-radius: 10px;
+          color: #C2E0EA;
+          margin: 24px 0;
+          line-height: 52px;
+          font-size: 32px;
+          text-align: center;
+          background-color: #415866;
+          cursor: pointer;
+          position: relative;
+        }
+      .active {
+        width: 210px;
+        height: 60px;
+        color: white;
+        font-size: 35px;
+        background-color: #2780B8;
+        position: relative;
+        left: -15px;
+        box-shadow: 0 0 20px 8px rgba(194, 224, 234, 0.8);
+      }
+    }
+    .divider {
+      position: absolute;
+      left: 1470px;
+      top: 308px;
+      width: 380px;
+      height: 0px;
+      // background-color: white;
+      border-top: 1px dashed white;
+    }
+    .main {
+      width: 1260px;
+      height: 621px;
+      position: absolute;
+      left: 1431px;
+      top: 12px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+      padding: 30px;
+      background-image: url("../../../assets/img/legend/roam-main.png");
+      #a1-traditional-Roam-top10 {
+        position: absolute !important;
+        left: 65px;
+        top: 40px;
+        font-size: 32px;
+        background: -webkit-linear-gradient(top, white, white 30%, #6CCFFF);
+        -webkit-background-clip: text;
+        color: transparent;
+        // border: 1px solid red;
+      }
+      #a1-traditional-Roam-echarts1 {
+        width: 400px;
+        height: 520px;
+        position: absolute !important;
+        left: 16px;
+        top: 84px;
+        // border: 1px solid red;
+      }
+      #a1-traditional-Roam-echarts2 {
+        width: 820px;
+        height: 530px;
+        position: absolute !important;
+        left: 420px;
+        top: 50px;
+        // border: 1px solid red;
+      }
+      #a1-traditional-Roam-in-total-number,
+      #a1-traditional-Roam-out-total-number {
+        position: absolute!important;
+        left: 420px;
+        top: 36px;
+        // border: 1px solid red;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: flex-end;
+        #roam-total-number {
+          color: yellow;
+        }
+      }
+      #a1-traditional-Roam-switch {
+        position: absolute !important;
+        left: 500px;
+        top: 540px;
+        // border: 1px solid red;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        z-index: 100;
+        div {
+          display: inline-block;
+          position: relative;
+          width: 70px;
+          // height: 30px;
+          line-height: 26px;
+          // border: 1px solid red;
+          padding: 4px 0px;
+          background-color: #1B5884;
+          opacity: 0.6;
+          cursor: pointer;
+        }
+        .active {
+          opacity: 1!important;
+          background-color: #304C81!important;
+        }
+      }
+    }
+  }
+}

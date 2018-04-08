@@ -1,0 +1,192 @@
+.a1-traditional-net-scale {
+  width: 100%;
+  height: 100%;
+  .a1-traditional-traditionalTop-two {
+    top: 130px;
+    left: 50px;
+    background: url("../../../assets/img/legend/net-scale-left.png") 0px 0px no-repeat;
+    box-shadow: 0px 0px 37px #9CA3A9;
+  }
+  .a1-traditional-net-scale-div {
+    width: 2691px;
+    height: 875px;
+    position: absolute;
+    top: 110px;
+    left: 820px;
+    background-image: url("../../../assets/img/legend/net-scale.png");
+    .left-client-wrap {
+      height: 100%;
+      width: 1620px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      .client-logo {
+        width: 72px;
+        height: 72px; // border-radius: 50%;
+        position: absolute;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 50%;
+        >.logoNum {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          background: orange;
+          top: -6px;
+          left: 48px;
+          border-radius: 50%;
+        }
+        &.active-logo {
+          box-shadow: inset 0px 0px 60px red;
+          background-color: rgba(255, 44, 43, 0.1);
+          animation-name: module-active-logo;
+          animation-duration: 1000ms;
+          animation-iteration-count: 1;
+          animation-timing-function: ease-in-out;
+          @keyframes module-active-logo {
+            from {
+              transform: none;
+            }
+            50% {
+              transform: scale(1.1);
+            }
+            to {
+              transform: none;
+            }
+          }
+        }
+        &.client-logo1 {
+          left: 65px;
+          top: 86px
+        }
+        &.client-logo2 {
+          left: 198px;
+          top: 194px
+        }
+        &.client-logo3 {
+          left: 270px;
+          top: 82px
+        }
+        &.client-logo4 {
+          left: 390px;
+          top: 194px
+        }
+        &.client-logo5 {
+          left: 461px;
+          top: 85px
+        }
+        &.client-logo6 {
+          left: 582px;
+          top: 196px
+        }
+        &.client-logo7 {
+          left: 984px;
+          top: 196px
+        }
+        &.client-logo8 {
+          left: 1106px;
+          top: 88px
+        }
+        &.client-logo9 {
+          left: 1174px;
+          top: 196px
+        }
+        &.client-logo10 {
+          left: 1295px;
+          top: 88px
+        }
+        &.client-logo11 {
+          left: 1369px;
+          top: 196px
+        }
+        &.client-logo12 {
+          left: 1502px;
+          top: 88px
+        }
+        &.client-logo13 {
+          left: 64px;
+          top: 698px
+        }
+        &.client-logo14 {
+          left: 178px;
+          top: 590px
+        }
+        &.client-logo15 {
+          left: 232px;
+          top: 698px
+        }
+        &.client-logo16 {
+          left: 342px;
+          top: 585px
+        }
+        &.client-logo17 {
+          left: 392px;
+          top: 698px
+        }
+        &.client-logo18 {
+          left: 502px;
+          top: 587px
+        }
+        &.client-logo19 {
+          left: 552px;
+          top: 697px
+        }
+        &.client-logo20 {
+          left: 984px;
+          top: 589px
+        }
+        &.client-logo21 {
+          left: 1106px;
+          top: 699px
+        }
+        &.client-logo22 {
+          left: 1176px;
+          top: 590px
+        }
+        &.client-logo23 {
+          left: 1296px;
+          top: 696px
+        }
+        &.client-logo24 {
+          left: 1370px;
+          top: 587px
+        }
+        &.client-logo25 {
+          left: 1502px;
+          top: 697px
+        }
+      }
+      .users-logo {
+        width: 126px;
+        height: 31px;
+        position: absolute;
+        &.user-count {
+          top: 120px;
+          left: 756px;
+        }
+        &.user-error {
+          top: 209px;
+          left: 756px;
+        }
+        &.lines-count {
+          top: 597px;
+          left: 756px;
+        }
+        &.lines-error {
+          top: 686px;
+          left: 756px;
+        }
+      }
+    }
+    .right-list-wrap {
+      width: 986px;
+      height: 786px;
+      position: absolute;
+      top: 40px;
+      right: 60px;
+    }
+  }
+}

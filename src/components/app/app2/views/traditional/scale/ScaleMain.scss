@@ -1,0 +1,215 @@
+.a2-traditional-scale{
+  width: 100%;
+  height: 100%;
+  .a2-traditional-scale-div{
+    width: 2164px;
+    height: 639px;
+    position: absolute;
+    top: 174px;
+    left: 372px;
+    //background-image: url("../../../assets/img/legend/scale.png");
+    .a2-traditional-BusinessScale {
+      left: 5px;
+      top: 81px;
+      border-radius: 10px;
+      background-image: url("../../../assets/img/legend/bus-scale.png");
+      background-size: 100% 100%;
+      box-shadow: 0px 0px 37px #9CA3A9;
+    }
+    .scale-measure {
+      position: absolute;
+      width: 355px;
+      height: 250px;
+      left: 430px;
+      top: 97px;
+      background-image: url("../../../assets/img/legend/sub-left1.png");
+      background-size: 100% 100%;
+      >div:nth-of-type(1){
+        position: absolute;
+        top: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: absolute;
+        top: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(3){
+        position: absolute;
+        top: 131px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(4){
+        position: absolute;
+        top: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .scale-flow1{
+        width: 262px;
+        height: 46px;
+        font-size: 25px;
+        color: #BEDCE6;
+        left: 23px;
+        background-image: url("../../../assets/img/legend/leftup.png");
+        background-size: 100% 100%;
+      }
+      .scale-flow2{
+        left: 16px;
+        height: 46px;
+        width: 282px;
+        font-size: 25px;
+        color: #fefefe;
+        background-size: 100% 100%;
+        background-image: url("../../../assets/img/legend/leftdown.png");
+      }
+    }
+    .scale-measure-next{
+      position: absolute;
+      width: 272px;
+      height: 182px;
+      top: 94px;
+      left: 614px;
+      z-index: 2;
+      background-image: url("../../../assets/img/legend/sub-mid.png");
+      >div:nth-of-type(1){
+        position: absolute;
+        top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .measure-traffic1{
+        left: 42px;
+        height: 46px;
+        width: 167px;
+        font-size: 22px;
+        color: #BEDCE6;
+        background-image: url("../../../assets/img/legend/midup.png");
+      }
+      .measure-traffic2{
+        left: 27px;
+        height: 58px;
+        width: 209px;
+        font-size: 28px;
+        color: #fefefe;
+        background-image: url("../../../assets/img/legend/middown.png");
+      }
+    }
+    .scale-measure-next2{
+      position: absolute;
+      width: 272px;
+      height: 182px;
+      top: 94px;
+      left: 614px;
+      z-index: 2;
+      background-image: url("../../../assets/img/legend/sub-mid.png");
+      >div:nth-of-type(1){
+        position: absolute;
+        top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      >div:nth-of-type(2){
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+      }
+      .measure-flow1{
+        left: 42px;
+        height: 46px;
+        width: 262px;
+        font-size: 22px;
+        color: #BEDCE6;
+        background-image: url("../../../assets/img/legend/midup.png");
+        background-size: 100% 100%;
+      }
+      .measure-flow2{
+        left: 27px;
+        height: 58px;
+        width: 300px;
+        font-size: 28px;
+        color: #fefefe;
+        background-image: url("../../../assets/img/legend/middown.png");
+        background-size: 100% 100%;
+      }
+    }
+    .scale-measure-chart{
+    position: absolute;
+    width: 1278px;
+    height: 629px;
+    top: 20px;
+    left: 768px;
+    background-image: url("../../../assets/img/legend/scale_bg.png");
+      .traffic-chart-show{
+        position: absolute;
+        width: 1251px;
+        height: 597px;
+        .historyTraffic-title{
+          position: absolute;
+          width: 573px;
+          top: 50px;
+          left: 74px;
+          height: 35px;
+          >span:nth-of-type(1){
+
+          }
+          >span:nth-of-type(2){
+            position: absolute;
+            left: 41px;
+            font-size: 35px;
+            color: #fefefe;
+            letter-spacing: 7px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 35px;
+            width: 600px;
+          }
+        }
+        .historyTraffic-chart{
+          position: absolute;
+          width: 1245px;
+          height: 420px;
+          top: 97px;
+        }
+      }
+  }
+    .chartDisplay{
+      visibility: hidden;
+    }
+  }
+}

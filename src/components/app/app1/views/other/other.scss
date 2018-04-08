@@ -1,0 +1,149 @@
+.others {
+  width: 312px;
+  height: 912px;
+  position: absolute;
+  right: 28px;
+  top: 64px;
+  .right-video {
+    width: 312px;
+    height: 912px;
+    > div {
+      width: 302px;
+      height: 200px;
+      border-radius: 18px;
+      margin-bottom: 32px;
+      overflow: hidden;
+    }
+    .video-1 {
+      margin-left: 3px;
+    }
+    .weather {
+      position: absolute;
+      bottom: -13px;
+      > div {
+        width: 100%;
+        height: 70px;
+        margin-top: 20px;
+      }
+      .list-item {
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+      }
+      .temperature {
+        color: #fbf972;
+        margin-left: 15px;
+      }
+      .weather-icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .baoxue {
+        background-image: url(../../assets/img/weather/baoxue.png)
+      }
+      .baoyu {
+        background-image: url(../../assets/img/weather/baoyu.png)
+      }
+      .baoyu-dabaoyu {
+        background-image: url(../../assets/img/weather/baoyu-dabaoyu.png)
+      }
+      .dabaoyu {
+        background-image: url(../../assets/img/weather/dabaoyu.png)
+      }
+      .dabaoyu-tedabaoyu {
+        background-image: url(../../assets/img/weather/dabaoyu-tedabaoyu.png)
+      }
+      .daxue {
+        background-image: url(../../assets/img/weather/daxue.png)
+      }
+      .dayu {
+        background-image: url(../../assets/img/weather/dayu.png)
+      }
+      .duoyun {
+        background-image: url(../../assets/img/weather/duoyun.png)
+      }
+      .fuchen {
+        background-image: url(../../assets/img/weather/fuchen.png)
+      }
+      .leizhenyu {
+        background-image: url(../../assets/img/weather/leizhenyu.png)
+      }
+      .leizhenyubanyoubingbao {
+        background-image: url(../../assets/img/weather/leizhenyubanyoubingbao.png)
+      }
+      .shachenbao {
+        background-image: url(../../assets/img/weather/shachenbao.png)
+      }
+      .tedabaoyu {
+        background-image: url(../../assets/img/weather/tedabaoyu.png)
+      }
+      .wu {
+        background-image: url(../../assets/img/weather/wu.png)
+      }
+      .xiaoxue {
+        background-image: url(../../assets/img/weather/xiaoxue.png)
+      }
+      .xiaoxue-zhongxue {
+        background-image: url(../../assets/img/weather/xiaoxue-zhongxue.png)
+      }
+      .xiaoyu {
+        background-image: url(../../assets/img/weather/xiaoyu.png)
+      }
+      .xiaoyu-zhongyu {
+        background-image: url(../../assets/img/weather/xiaoyu-zhongyu.png)
+      }
+      .yanzhongmai {
+        background-image: url(../../assets/img/weather/yanzhongmai.png)
+      }
+      .yangsha {
+        background-image: url(../../assets/img/weather/yangsha.png)
+      }
+      .yin {
+        background-image: url(../../assets/img/weather/yin.png)
+      }
+      .yujiaxue {
+        background-image: url(../../assets/img/weather/yujiaxue.png)
+      }
+      .zhenxue {
+        background-image: url(../../assets/img/weather/zhenxue.png)
+      }
+      .zhenyu {
+        background-image: url(../../assets/img/weather/zhenyu.png)
+      }
+      .zhongxue {
+        background-image: url(../../assets/img/weather/zhongxue.png)
+      }
+      .zhongxue-daxue {
+        background-image: url(../../assets/img/weather/zhongxue-daxue.png)
+      }
+      .zhongyu {
+        background-image: url(../../assets/img/weather/zhongyu.png)
+      }
+      .zhongyu-dayu {
+        background-image: url(../../assets/img/weather/zhongyu-dayu.png)
+      }
+      .dayu {
+        background-image: url(../../assets/img/weather/dayu.png)
+      }
+      .baoyu {
+        background-image: url(../../assets/img/weather/baoyu.png)
+      }
+      .baoxue {
+        background-image: url(../../assets/img/weather/baoxue.png)
+      }
+      .shachenbao {
+        background-image: url(../../assets/img/weather/shachenbao.png)
+      }
+      .qingtian {
+        background-image: url(../../assets/img/weather/qingtian.png)
+      }
+    }
+  }
+}
